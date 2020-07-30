@@ -41,7 +41,7 @@ def kesha_maker(array)
   bling
 end
 
-def find_a(array, "a")
+def find_a(array, a)
   array.select {|word| word.start_with("a")}
 end
 
