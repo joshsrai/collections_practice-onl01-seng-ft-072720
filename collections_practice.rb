@@ -41,7 +41,7 @@ def kesha_maker(array)
   bling
 end
 
-def find_a(array, begins_with)
-  array.lazy.grepselect {|word| word.start_with("a")}
+def find_a(words, begins_with)
+  words.lazy.grep(/\A#{begins_with}/).first
 end
 
