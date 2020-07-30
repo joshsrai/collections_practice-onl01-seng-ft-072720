@@ -41,3 +41,7 @@ def kesha_maker(array)
   bling
 end
 
+def find_a
+  
+  
+end
