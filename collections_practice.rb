@@ -41,7 +41,11 @@ def kesha_maker(array)
   bling
 end
 
-
 def find_a(array)
   array.select{|a| a.start_with?("a")}
+end
+
+def sum_array(array)
+  array.injec{|sum, i| sum += i}
+  
 end
