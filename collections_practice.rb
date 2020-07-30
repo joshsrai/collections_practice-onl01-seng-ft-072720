@@ -42,6 +42,6 @@ def kesha_maker(array)
 end
 
 
-def find_a(array, characters)
-  array.find { |el| el.start_with? characters }
+def find_a(array)
+  array.find { |el| el.start_with? "a" }
 end
