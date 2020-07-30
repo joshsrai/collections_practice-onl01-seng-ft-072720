@@ -43,5 +43,5 @@ end
 
 
 def find_a(array)
-  array.find {|a| a.start_with?("a")}
+  array.select{|a| a.start_with?("a")}
 end
