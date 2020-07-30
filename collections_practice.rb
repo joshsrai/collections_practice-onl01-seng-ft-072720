@@ -32,8 +32,12 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.map {|
-  
-  
+  bling = []
+  array.each do |word|
+    word_array = word.split ""
+    word_array[2] = "$"
+    bling << word_array.join
+  end
+  bling
 end
 
